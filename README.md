@@ -88,7 +88,7 @@
 - **RMSE (Root Mean Squared Error)**: 예측 오차의 크기를 나타냄
 - **R² (결정계수)**: 모델 설명력 지표
 
-> 상세 성능 비교는 `team7_update.ipynb` 및 `results/` 폴더 참고
+> 상세 성능 비교는 `team7_final.ipynb` 및 `results/` 폴더 참고
 
 ---
 
@@ -121,7 +121,7 @@
 ## ⚙️ 코드 실행 가이드
 
 1. `dataset_with_subway.csv`를 `data/` 디렉토리에 저장
-2. `team7_update.ipynb` 실행
+2. `team7_final.ipynb` 실행
    - 전처리 → 모델링 → 결과 시각화 순서로 구성
 3. 주요 실행 셀은 코드에 주석으로 안내되어 있음
 
