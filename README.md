@@ -169,11 +169,10 @@
 
 ## 📌 참고사항
 
-('data_merging_final'):
-API 호출과 Kakao Maps 기반 reverse geocoding 과정이 포함되어 러닝타임이 비교적 길고,
-데이터 병합 과정에서는 중간중간 데이터셋 rename 및 삭제가 있었습니다.
+`data_merging_final.ipynb`에는 Kakao Maps 기반의 reverse geocoding 과정이 포함되어 있어 실행 시간이 다소 길고,  
+API 키 노출 우려 등 보안적인 이슈도 존재합니다. 또한 병합 과정 중에는 일부 데이터셋의 이름 변경 및 삭제가 여러 차례 발생하였습니다.
 
 따라서 전체 병합 과정을 처음부터 재현하기보다는,  
-이미 생성된 최종 병합 데이터셋(`dataset_with_subway.csv`)을 활용해 분석을 진행하는 것을 권장합니다.
+이미 생성된 최종 병합 데이터셋(`dataset_with_subway.csv`)을 활용하여 분석을 진행하는 것을 권장드립니다.
 
 
