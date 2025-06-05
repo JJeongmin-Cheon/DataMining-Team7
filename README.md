@@ -139,10 +139,21 @@
 
 ---
 
-## 📌 참고사항: 데이터 병합 및 전처리 주의사항
+## 🔗 원본 데이터 출처
 
-- **문화행사 데이터 처리**:
- - Kakao Maps API를 활용해 위도/경도를 행정동 코드로 변환 (reverse geocoding)
-  - 실행 시간이 상당히 소요됨 (데이터 수 기준으로 약 15~20분)
-  - API 호출 제한 우려가 있어, 실제 실행 없이 결과가 반영된 `.csv` 파일(`dataset_with_subway.csv`) 사용을 권장
+병합에 활용된 공공데이터는 다음과 같습니다 (별도 업로드는 생략):
+
+- 서울시 생활인구 데이터: [data.seoul.go.kr](https://data.seoul.go.kr)
+- 기상청 기상자료 개방포털: [data.kma.go.kr](https://data.kma.go.kr)
+- 공공 공휴일 API: [data.go.kr](https://www.data.go.kr)
+- 서울시 문화행사 데이터: [data.seoul.go.kr](https://data.seoul.go.kr)
+
+## 📌 참고사항
+
+데이터 병합 과정에서는 중간중간 잦은 데이터셋 rename 및 삭제가 있었으며,  
+공휴일 정보 API 호출과 Kakao Maps 기반 reverse geocoding 과정이 포함되어 러닝타임이 비교적 깁니다.
+
+따라서 전체 병합 과정을 처음부터 재현하기보다는,  
+이미 생성된 최종 병합 데이터셋(`data/dataset_with_subway.csv`)을 활용해 분석을 진행하는 것을 권장합니다.
+
 
