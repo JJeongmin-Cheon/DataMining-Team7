@@ -129,7 +129,7 @@
 
 ## ⚙️ 코드 실행 가이드
 
-1. `dataset_with_subway.csv`를 `data/` 디렉토리에 저장
+1. `dataset_with_subway.csv`를 디렉토리에 저장
 2. `team7_final.ipynb` 실행
    - 전처리 → 모델링 → 결과 시각화 순서로 구성
 3. 주요 실행 셀은 코드에 주석으로 안내되어 있음
