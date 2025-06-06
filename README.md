@@ -11,9 +11,9 @@
 
 ```
 DataMining-Team7/
-├── data/             # 전처리 및 분석용 데이터셋
-├── notebooks/        # EDA 및 모델 학습 노트북
-├── report/           # 최종 보고서 (Word 문서, 발표자료 등)
+├── data/             # 분석용 데이터셋
+├── notebooks/        # 데이터 병합 및 모델 학습 노트북
+├── report/           # 최종 보고서 (분석의 전체 과정 Word 문서)
 ├── README.md         # 프로젝트 설명서
 ```
 
